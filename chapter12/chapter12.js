@@ -57,7 +57,7 @@ function checkPosition(currentPosition) {
     */
     if (currentPosition === 620) {
         alert("CRASH!");
-        consle.log("CRASH!");
+        console.log("CRASH!");
         clearInterval(animation);
     }
 }
